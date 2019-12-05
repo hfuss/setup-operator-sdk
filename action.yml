@@ -1,5 +1,5 @@
 name: 'setup-operator-sdk'
-description: 'Installs the operator-sdk CLI tool for building and testing operators. See engineerd/setup-kind action for easily getting a K8s cluster.'
+description: 'Installs the operator-sdk CLI tool for building and testing operators.'
 author: 'Hayden Fuss'
 inputs:
   version:
