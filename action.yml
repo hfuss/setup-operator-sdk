@@ -1,10 +1,10 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'setup-operator-sdk'
+description: 'Downloads the Operator SDK.'
+author: 'Hayden Fuss'
 inputs:
-  myInput:              # change this
+  version:
     description: 'input description here'
-    default: 'default value if applicable'
+    default: 'v0.12.0'
 runs:
   using: 'node12'
   main: 'lib/main.js'
